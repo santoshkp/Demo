@@ -12,7 +12,6 @@ public class LargestNumber
  
         for (int i = number; i > 0; --i)
         {
-        	System.out.println(""+i);
             if(Integer.toString(i).indexOf(c) == -1)
             {
                 //If 'i' doesn't contain 'c'
